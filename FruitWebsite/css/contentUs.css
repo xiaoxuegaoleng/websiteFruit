@@ -1,0 +1,304 @@
+header{
+    width: 100%;
+    height:auto;
+}
+header .bigBox{
+    width: 1190px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+header .bigBox .brand{
+    width: 219px;
+    height: 80px;
+    position: relative;
+}
+header .bigBox .nav{
+    width: 971px;
+    height: 80px;
+    float: right;
+}
+header .bigBox .nav ul{
+    width: 971px;
+    height: 48px;
+    margin: 16px  0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+}
+header .bigBox .nav ul li{
+    width: auto;
+    height: 48px;
+    display: inline-block;
+    margin: auto 62px auto 0;
+
+}
+header .bigBox .nav ul li:nth-child(7){
+    margin-right: 0;
+}
+header .bigBox .nav ul li a{
+    display: block;
+    width:100%;
+    height: 48px;
+    /*text-decoration: none!important;*/
+    line-height: 48px;
+}
+header .bigBox .nav ul li a span{
+    width: auto;
+    font-size: 14px;
+    color: #333333;
+    position: relative;
+}
+header .bigBox .nav ul li a span i{
+    width: 100%;
+    height: 1px;
+    position:absolute ;
+    top: 40px;
+}
+header .bigBox .nav ul li:nth-child(1) a span i{
+    display: block;
+    background-color: #757575;
+}
+header .bigBox .nav ul li:nth-child(1) a span{
+    color: #757575;
+}
+header .bigBox .nav ul li a:hover span{
+    color: #757575;
+}
+header .bigBox .nav ul li a:hover span i{
+    width: 100%;
+    opacity: 1;
+    left: 0;
+    background-color: #757575;
+    transition: 1s;
+}
+section{
+    width: 100%;
+    height: auto;
+}
+section .biaoTi{
+    width: 1200px;
+    height: 39px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+section .biaoTi .title{
+    width: 28px;
+    height: 19px;
+    margin-left: 20px;
+}
+section .biaoTi .title a{
+    width: 100%;
+    height: 100%;
+    /*margin-right: 2px;*/
+    color: #56aa34;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 19px;
+    text-align: center;
+}
+section .biaoTi span{
+    display: block;
+    width: 22px;
+    height: 19px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #999999;
+    /*margin-left: 2px;*/
+    text-align: center;
+
+}
+section .biaoTi .word{
+    width: 70px;
+    height: 19px;
+
+}
+section .biaoTi .word span{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #999999;
+    /*margin-right: 2px;*/
+    text-align: center;
+    line-height: 19px;
+}
+section .heZuo{
+    width: 100%;
+    height: 600px;
+    /*background-color: #333333;*/
+}
+section .heZuo .main{
+    width: 1190px;
+    height: 293px;
+    margin: 0 auto;
+    /*background-color: pink;*/
+}
+section .heZuo .main .top{
+    width: 1190px;
+    height:193px;
+    margin: 0 auto;
+    padding:100px 2px 20px;
+    position: relative;
+    box-sizing: border-box;
+    /*background-color: rebeccapurple;*/
+}
+section .heZuo .main .top .info{
+    width: 1186px;
+    height:72px;
+    margin:auto 2px;
+}
+section .heZuo .main .top .info .title{
+    width: 120px;
+    height: 32px;
+    margin: 0 auto;
+    font-size: 24px;
+    color: #494949;
+    text-align: center;
+    line-height: 32px;
+}
+section .heZuo .main .top .info .subtitle{
+    width:120px;
+    height: 34px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #bcbcbc;
+    text-align: center;
+    line-height: 34px;
+}
+section .heZuo .main .top .info .line{
+    width: 40px;
+    height: 3px;
+    background-color: #60c14d;
+    margin: 3px auto 0;
+}
+section .heZuo .main .tuBiao{
+    width: 1050px;
+    height:40px;
+    margin: 40px auto 20px;
+    /*background-color: #4bb344;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section .heZuo .main .tuBiao .box{
+    width: 175px;
+    height: 40px;
+    /*background-color: #333333;*/
+
+
+}
+section .heZuo .main .tuBiao .box img{
+    display: block;
+    width:115px;
+    height: 100%;
+    /*background-color: rosybrown;*/
+    margin: auto;
+
+}
+section .heZuo .bottom{
+    width: 1010px;
+    height: 242px;
+    margin: 0 auto;
+    /*background-color:yellow;*/
+    display: flex;
+    justify-content: space-between;
+}
+section .heZuo .bottom .left{
+    width: 363px;
+    height: 242px;
+    margin: 0 auto;
+    /*background-color:red;*/
+}
+section .heZuo .bottom .left ul{
+    width: 363px;
+    height: 242px;
+    margin: 0 auto;
+}
+section .heZuo .bottom .left ul li{
+    width: 363px;
+    height: 13px;
+    margin: 10px auto;
+    color: rgb(105, 105, 105);
+    font-size: 13px;
+    text-align: left;
+    line-height: 13px;
+    font-family: 宋体;
+}
+section .heZuo .bottom .left ul li:nth-child(1){
+    height: 16px;
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 14px;
+    color:#000000;
+}
+section .heZuo .bottom .left ul li:nth-child(2){
+    height: 13px;
+    margin-bottom: 15px;
+}
+section .heZuo .bottom .mid{
+    width: 313px;
+    height: 242px;
+    margin: 0 auto;
+    /*background-color:green;*/
+}
+section .heZuo .bottom .mid input{
+    width: 313px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(245, 245, 245);
+    padding:0 10px ;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+section .heZuo .bottom .mid input:nth-child(2){
+    background-color: rgb(245, 245, 245);
+}
+section .heZuo .bottom .mid input:nth-child(3){
+    width: 636px;
+    height: 63px;
+    background-color: rgb(245, 245, 245);
+    padding-top: 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+section .heZuo .bottom .mid button{
+    width: 130px;
+    height:40px;
+    background-color: #4bb344;
+    border: 1px solid #4bb344;
+}
+section .heZuo .bottom .mid button a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+}
+section .heZuo .bottom .right{
+    width: 334px;
+    height: 242px;
+    margin-left: 10px;
+    /*background-color: rosybrown;*/
+}
+section .heZuo .bottom .right input{
+    width: 313px;
+    height: 40px;
+    background-color: rgb(245, 245, 245);
+    padding:0 10px ;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+section .heZuo .bottom .right input:nth-child(2){
+    background-color: rgb(245, 245, 245);
+}

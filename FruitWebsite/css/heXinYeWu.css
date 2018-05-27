@@ -1,0 +1,205 @@
+
+header{
+    width: 100%;
+    height:auto;
+}
+header .bigBox{
+    width: 1190px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+header .bigBox .brand{
+    width: 219px;
+    height: 80px;
+    position: relative;
+}
+header .bigBox .nav{
+    width: 971px;
+    height: 80px;
+    float: right;
+}
+header .bigBox .nav ul{
+    width: 971px;
+    height: 48px;
+    margin: 16px  0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+}
+header .bigBox .nav ul li{
+    width: auto;
+    height: 48px;
+    display: inline-block;
+    margin: auto 62px auto 0;
+
+}
+header .bigBox .nav ul li:nth-child(7){
+    margin-right: 0;
+}
+header .bigBox .nav ul li a{
+    display: block;
+    width:100%;
+    height: 48px;
+    /*text-decoration: none!important;*/
+    line-height: 48px;
+}
+header .bigBox .nav ul li a span{
+    width: auto;
+    font-size: 14px;
+    color: #333333;
+    position: relative;
+}
+header .bigBox .nav ul li a span i{
+    width: 100%;
+    height: 1px;
+    position:absolute ;
+    top: 40px;
+}
+header .bigBox .nav ul li:nth-child(1) a span i{
+    display: block;
+    background-color: #757575;
+}
+header .bigBox .nav ul li:nth-child(1) a span{
+    color: #757575;
+}
+header .bigBox .nav ul li a:hover span{
+    color: #757575;
+}
+header .bigBox .nav ul li a:hover span i{
+    width: 100%;
+    opacity: 1;
+    left: 0;
+    background-color: #757575;
+    transition: 1s;
+}
+section{
+    width: 100%;
+    height: auto;
+}
+section .biaoTi{
+    width: 1200px;
+    height: 39px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+section .biaoTi .title{
+    width: 28px;
+    height: 19px;
+    margin-left: 20px;
+}
+section .biaoTi .title a{
+    width: 100%;
+    height: 100%;
+    /*margin-right: 2px;*/
+    color: #56aa34;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 19px;
+    text-align: center;
+}
+section .biaoTi span{
+    display: block;
+    width: 22px;
+    height: 19px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #999999;
+    /*margin-left: 2px;*/
+    text-align: center;
+
+}
+section .biaoTi .word{
+    width: 56px;
+    height: 19px;
+
+}
+section .biaoTi .word span{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #999999;
+    /*margin-right: 2px;*/
+    text-align: center;
+    line-height: 19px;
+}
+section .bigBox{
+    width:1200px ;
+    height: 510px;
+    margin:10px auto 100px ;
+}
+section .bigBox .box{
+    width:593px ;
+    height: 248px;
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    border: 1px solid rgba(198,198,198,1);
+    box-sizing: border-box;
+}
+section .bigBox .box:nth-child(2){
+    margin-right: 0;
+}
+section .bigBox .box:nth-child(4){
+    margin-right: 0;
+}
+section .bigBox .box .top{
+    width: 533px;
+    height: 58px;
+    margin: 38px auto 0;
+    position: relative;
+}
+section .bigBox .box .top .line{
+    width:20px;
+    height: 1px;
+    background-color: #c6c6c6;
+    position: absolute;
+    left: 198px;
+    top:28px;
+}
+section .bigBox .box .top .title{
+    width: 57px;
+    height: 58px;
+    position: absolute;
+    left: 238px;
+    top:0;
+    line-height: 58px;
+    text-align: center;
+    font-family:arial;
+    font-size:50px;
+    font-weight:bold;
+    font-style:normal;
+    color:#cecece;
+}
+section .bigBox .box .top .xian{
+    width:20px;
+    height: 1px;
+    background-color: #c6c6c6;
+    position: absolute;
+    right: 198px;
+    top:28px;
+}
+section .bigBox .box .des{
+    width: 533px;
+    height:112px;
+    margin:0 auto  38px;
+    box-sizing: border-box;
+}
+section .bigBox .box .des span{
+    width: 533px;
+    height: 82px;
+    margin-top: 15px;
+    display: inline-block;
+    color: rgb(102, 102, 102);
+    font-family: 微软雅黑;
+    font-size: 14px;
+    /*background-color: rgba(255, 255, 255, 0.01);*/
+    line-height: 1.8;
+}

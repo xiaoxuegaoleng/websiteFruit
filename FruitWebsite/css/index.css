@@ -1,0 +1,1042 @@
+
+header{
+    width: 100%;
+    height:auto;
+}
+header .bigBox{
+    width: 1190px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .bigBox .brand{
+    width: 219px;
+    height: 80px;
+    position: relative;
+}
+header .bigBox .nav{
+    width: 971px;
+    height: 80px;
+    float: right;
+}
+header .bigBox .nav ul{
+    width: 971px;
+    height: 48px;
+    margin: 16px  0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+}
+header .bigBox .nav ul li{
+    width: auto;
+    height: 48px;
+    display: inline-block;
+    margin: auto 62px auto 0;
+
+}
+header .bigBox .nav ul li:nth-child(7){
+    margin-right: 0;
+}
+header .bigBox .nav ul li a{
+    display: block;
+    width:100%;
+    height: 48px;
+    /*text-decoration: none!important;*/
+    line-height: 48px;
+}
+header .bigBox .nav ul li a span{
+    width: auto;
+    font-size: 14px;
+    color: #333333;
+    position: relative;
+}
+header .bigBox .nav ul li a span i{
+    width: 100%;
+    height: 1px;
+    position:absolute ;
+    top: 40px;
+}
+header .bigBox .nav ul li:nth-child(1) a span i{
+    display: block;
+    background-color: #757575;
+}
+header .bigBox .nav ul li:nth-child(1) a span{
+    color: #757575;
+}
+header .bigBox .nav ul li a:hover span{
+    color: #757575;
+}
+header .bigBox .nav ul li a:hover span i{
+    width: 100%;
+    opacity: 1;
+    left: 0;
+    background-color: #757575;
+    transition: 1s;
+}
+section{
+    width: 100%;
+    height: auto;
+}
+section .banner{
+    width: 100%;
+    height: 620px;
+    position: relative;
+}
+section .banner img{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/tomato.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: 10;
+}
+section .banner img:nth-child(2){
+    background-image: url("../img/putao.jpg");
+    opacity: 0;
+ }
+section .banner img:nth-child(1){
+    z-index: 20;
+    opacity: 1;
+}
+section .service{
+    width: 100%;
+    height: 572px;
+    background-color: #f7f7f7;
+}
+section .service .top{
+    width: 100%;
+    height: 166px;
+    padding: 68px 0px 24px 0px;
+    box-sizing: border-box;
+}
+section .service .top .title{
+    width: 240px;
+    height: 31px;
+    margin: 0 auto;
+    font-size: 24px;
+    color: #494949;
+   text-align: center;
+    line-height: 31px;
+}
+section .service .top .subtitle{
+    width: 240px;
+    height: 36px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #bcbcbc;
+    text-align: center;
+    line-height: 36px;
+}
+section .service .top .line{
+    width: 40px;
+    height: 3px;
+    background-color: #60c14d;
+    margin: 3px auto 0;
+}
+section .service .middle{
+    width: 100%;
+    height: 100px;
+}
+section .service .middle .pic{
+    width: 209px;
+    height: 62px;
+    margin: 0 auto;
+    background-image: url("../img/jiuyefuwu.png");
+    background-size: cover;
+    background-position: center;
+}
+section .service .bottom{
+    width: 100%;
+    height: 306px;
+}
+section .service .bottom .main{
+    width: 1280px;
+    height: 165px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+section .service .bottom .main .keYan{
+    width:300px;
+    height: 165px;
+    /*padding-left:10px;*/
+    box-sizing: border-box;
+}
+section .service .bottom .main .keYan .pic{
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    background-image: url("../img/service2.png");
+    background-size: cover;
+    background-position: center;
+}
+section .service .bottom .main .keYan:nth-child(2) .pic{
+    background-image: url("../img/service3.png");
+}
+section .service .bottom .main .keYan:nth-child(3) .pic{
+    background-image: url("../img/service4.png");
+}
+section .service .bottom .main .keYan:nth-child(4) .pic{
+    background-image: url("../img/service5.png");
+}
+section .service .bottom .main .keYan .title{
+    width: 72px;
+    height: 29px;
+    margin-top: 25px;
+    margin-left:114px;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #4bb344;
+}
+section .service .bottom .main .keYan .text{
+    width: 250px;
+    height: 36px;
+    margin-left:25px;
+    color: rgb(128, 128, 128);
+    font-size: 12px;;
+    line-height: 18px;
+    text-align: center;
+}
+section .agrPro{
+    width: 100%;
+    height: 1086px;
+    background-image: url("../img/bigTomato.png");
+    background-size: cover;
+    position: relative;
+}
+section .agrPro .main{
+    width:1200px;
+    height: 1066px;
+    position: absolute;
+    top: 20px;
+    left: 74.5px;
+}
+section .agrPro .main .top{
+    width: 1110px;
+    height: 202px;
+    margin: 0 auto;
+    /*background-color: #4bb344;*/
+    padding: 65px 2px;
+    position: relative;
+    box-sizing: border-box;
+}
+section .agrPro .main .top .info{
+    width: 1106px;
+    height:72px;
+}
+section .agrPro .main .top .info .title{
+    width: 120px;
+    height: 32px;
+    margin: 0 auto;
+    font-size: 24px;
+    color: #494949;
+    text-align: center;
+    line-height: 32px;
+}
+section .agrPro .main .top .info .subtitle{
+    width:120px;
+    height: 34px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #bcbcbc;
+    text-align: center;
+    line-height: 34px;
+}
+section .agrPro .main .top .info .line{
+    width: 40px;
+    height: 3px;
+    background-color: #60c14d;
+    margin: 3px auto 0;
+}
+section .agrPro .main .bottom{
+    width: 1110px;
+    height: 864px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 64px;
+    box-sizing: border-box;
+}
+section .agrPro .main .bottom .box{
+    width: 25%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+section .agrPro .main .bottom .box .kuang{
+    width: 257.5px;
+    height:380px;
+    margin: 0 auto;
+    border: 1px solid rgba(221,221,221,1);
+}
+section .agrPro .main .bottom .box .kuang:hover{
+    border-style: none;
+    transform: translate(0, -5px);
+    box-shadow: 0 5px 3px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+}
+section .agrPro .main .bottom .box .kuang .pic{
+    width: 215px;
+    height:242px;
+    margin: 0 auto;
+}
+
+section .agrPro .main .bottom .box .kuang .pic a{
+    display: block;
+    width: 215px;
+    height:242px;
+    margin: 0 auto;
+    background-image:url("../img/boluo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+section .agrPro .main .bottom .box:nth-child(2) .kuang .pic a{
+    background-image:url("../img/xihongshi.jpg");
+}
+section .agrPro .main .bottom .box:nth-child(3) .kuang .pic a{
+    background-image:url("../img/qiyiguo.jpg");
+}
+section .agrPro .main .bottom .box:nth-child(4) .kuang .pic a{
+    background-image:url("../img/huangguo.jpg");
+}
+section .agrPro .main .bottom .box:nth-child(5) .kuang .pic a{
+    background-image:url("../img/baicai.jpg");
+}
+section .agrPro .main .bottom .box:nth-child(6) .kuang .pic a{
+     background-image:url("../img/banner.jpg");
+}
+section .agrPro .main .bottom .box:nth-child(7) .kuang .pic a{
+      background-image:url("../img/Smallputao.jpg");
+}
+section .agrPro .main .bottom .box:nth-child(8) .kuang .pic a{
+    background-image:url("../img/apple.jpg");
+}
+section .agrPro .main .bottom .box .kuang .name{
+    width: 215px;
+    height: 32px;
+    margin: 14px auto;
+}
+section .agrPro .main .bottom .box .kuang .name a{
+    display: block;
+    width: 215px;
+    height: 21px;
+    margin: 0 auto;
+    color: #555555;
+    font-size: 15px;
+    font-family: 微软雅黑;
+    line-height: 21px;
+    text-align: center;
+}
+section .agrPro .main .bottom .box .kuang:hover .name a{
+    color: green;
+}
+section .agrPro .main .bottom .box .kuang .name .line{
+    width:215px;
+    height: 1px;
+    background-color: #afafaf;
+    margin-top:10px ;
+}
+section .agrPro .main .bottom .box .kuang:hover .name .line{
+
+    background-color: #000000;
+    transition:  3s;
+
+}
+section .agrPro .main .bottom .box .kuang .word{
+    width: 215px;
+    height: 48px;
+    margin: 20px auto;
+    color: #aaaaaa;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    text-align: left;
+    line-height: 24px;
+}
+section .xiaolv{
+    width: 100%;
+    height: 520px;
+    background-image: url("../img/lvcao.jpg");
+    background-size: cover;
+    background-position: center;
+}
+section .content{
+    width:1100px;
+    height:500px;
+    background-color:#80bb01;
+    margin:-400px auto 0;
+    border:15px solid rgba(255,255,255,0.7);
+    box-sizing: border-box;
+    position: relative;
+
+}
+section .content .top{
+    width: 1066px;
+    height: 104px;
+    position: absolute;
+    top: 69px;
+    left: 2px;
+    /*background-color: rebeccapurple;*/
+}
+section .content .top .name{
+    width: 304px;
+    height:19px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 19px;
+}
+section .content .top .english{
+    width: 304px;
+    height: 64px;
+    margin: 0 auto;
+    font-size: 37px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 64px;
+}
+section .content .top .line{
+    width: 40px;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 20px auto 0;
+}
+section .content .mid{
+    width: 1066px;
+    height: 66px;
+    position: absolute;
+    top: 173px;
+    left: 2px;
+}
+section .content .mid .more{
+    width: 176px;
+    height: 43px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    margin: 23px auto 0;
+    font-family: arial;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+}
+section .content .mid .more a{
+    width: 176px;
+    height: 43px;
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+section .content .mid .more a i{
+    width: 20px;
+    height: 20px;
+    color: rgb(128, 187, 1);
+    margin-left: 20px;
+    line-height: 43px;
+}
+section .content .mid .more a:hover{
+    background-color: #000000;
+}
+section .content .mid .more a:hover i{
+    color: #ffffff;
+}
+section .content .bottom{
+    width: 1066px;
+    height: 381px;
+    position: absolute;
+    top: 259px;
+    left: 2px;
+}
+section .content .bottom .pic{
+    width: 545px;
+    height: 381px;
+    margin: 0 auto;
+    background-image: url("../img/vegetables.png");
+    background-size: cover;
+    background-position: center;
+}
+section .aboutUs{
+    width: 1366px;
+    height: 704px;
+    margin-top: 250px;
+    background-color:#f7f7f7;
+    position: relative;
+}
+section .aboutUs .box{
+    width: 1080px;
+    height: 384px;
+    /*margin-bottom: 180px;*/
+    position: absolute;
+    top: 140px ;
+    left:143px;
+    position: relative;
+}
+section .aboutUs .box .pic{
+    width:756px;
+    height: 424px;
+    background-image: url("../img/taozi.jpg");
+    background-size: cover;
+    background-position: center;
+}
+section .aboutUs .box .right{
+    width: 540px;
+    height: 224px;
+    background-color: #80bb01;
+    position: absolute;
+    top:160px;
+    right: 0px;
+}
+section .aboutUs .box .right .top{
+    width: 500px;
+    height: 106px;
+    margin: 20px auto 0;
+    padding: 24px 0 24px 10px;
+    box-sizing: border-box;
+}
+section .aboutUs .box .right .bottom{
+    width: 500px;
+    height: 78px;
+    margin: 0 auto  20px;
+    padding: 0 10px 14px 10px;
+    box-sizing: border-box;
+
+}
+section .aboutUs .box .right .top .neirong{
+    width: 490px;
+    height: 58px;
+}
+section .aboutUs .box .right .top .neirong .title{
+    width:96px;
+    height: 31px;
+    font-family: 微软雅黑;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 31px;
+    text-align: left;
+}
+section .aboutUs .box .right .top .neirong .line{
+    width:40px;
+    height:3px;
+    background-color:#ffffff;
+    margin-top: 24px;
+}
+section .aboutUs .box .right .bottom span{
+    width:480px;
+    height: 54px;
+    margin: 0 auto  20px;
+    font-family: 仿宋_gb2312;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+}
+section .news{
+    width: 100%;
+    height: 775px;
+    background-image: url("../img/bigTomato.png");
+    background-size: cover;
+    position: relative;
+}
+section .news .main{
+    width:1120px;
+    height: 755px;
+    margin: 0 auto;
+    /*position: absolute;*/
+    /*top: 20px;*/
+    /*left: 74.5px;*/
+
+}
+section .news  .main .top{
+    width: 1110px;
+    height:173px;
+    margin: 0 auto;
+    /*background-color: #4bb344;*/
+    padding: 50px 2px;
+    position: relative;
+    box-sizing: border-box;
+}
+section .news .main .top .info{
+    width: 1106px;
+    height:72px;
+}
+section .news .main .top .info .title{
+    width: 120px;
+    height: 32px;
+    margin: 0 auto;
+    font-size: 24px;
+    color: #494949;
+    text-align: center;
+    line-height: 32px;
+}
+section .news .main .top .info .subtitle{
+    width:120px;
+    height: 34px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #bcbcbc;
+    text-align: center;
+    line-height: 34px;
+}
+section .news .main .top .info .line{
+    width: 40px;
+    height: 3px;
+    background-color: #60c14d;
+    margin: 3px auto 0;
+}
+section .news  .main .bottom{
+    width: 1110px;
+    height:173px;
+   display: flex;
+}
+section .news .main .bottom .kuang{
+    width: 370px;
+    height:389px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+section .news .main .bottom .kuang .pic{
+    width: 340px;
+    height:179px;
+    margin: 0 auto;
+    position: relative;
+}
+
+section .news .main .bottom .kuang .pic a{
+    display: block;
+    width: 340px;
+    height:179px;
+    margin: 0 auto;
+    background-image:url("../img/xiaoputao.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+section .news .main .bottom .kuang .pic a .mask {
+    display: none;
+    width: 340px;
+    height: 179px;
+    margin: 0 auto;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+section .news .main .bottom .kuang .pic a .mask i{
+    display:none;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top:60px;
+    left: 140px;
+    text-align: center;
+    line-height: 60px;
+    /*margin: auto;*/
+    font-size: 50px;
+    color: #ffffff;
+/*background-color: #4bb344;*/
+}
+section .news .main .bottom .kuang:hover .pic a .mask {
+    /*opacity: 0.14;*/
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all ease 9s;
+}
+section .news .main .bottom .kuang:hover .pic a .mask i{
+    /*opacity: 0.54;*/
+    display: block;
+    /*background: rgba(0, 0, 0, 0.72);*/
+    transition:all ease  9s;
+    /*z-index: 9912;*/
+}
+
+section .news .main .bottom .kuang:nth-child(2) .pic a{
+    background-image:url("../img/xiaotaozi.jpg");
+    background-color: #bcbcbc;
+}
+section .news .main .bottom .kuang:nth-child(3) .pic a{
+    background-image:url("../img/sangshen.jpg");
+}
+
+section .news .main .bottom .kuang .name{
+    width: 340px;
+    height:73px;
+    margin: 14px auto;
+}
+section .news .main .bottom .kuang .name a{
+    display: block;
+    width: 340px;
+    height: 73px;
+    margin: 0 auto;
+    color: #555555;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    line-height: 73px;
+    text-align:left;
+}
+section .news .main .bottom  .kuang:hover .name a{
+    color: green;
+}
+section .news .main .bottom .kuang .name .line{
+    width:340px;
+    height: 1px;
+    background-color: #afafaf;
+}
+section .news .main .bottom .kuang:hover .name .line{
+    background-color: #000000;
+    transition: 2s;
+}
+section .news .main .bottom .kuang .word{
+    width: 340px;
+    height: 98px;
+}
+section .news .main .bottom .kuang .word p{
+    width: 340px;
+    height: 48px;
+    margin: 25px auto;
+    color: #aaaaaa;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    text-align: left;
+    line-height: 24px;
+
+}
+section .news .main .dibu{
+    width: 1110px;
+    height: 69px;
+    /*background-color: #4bb344;*/
+    position: absolute;
+    bottom: 100px;
+}
+section .news .main .dibu .box{
+    width: 202px;
+    height: 36px;
+    margin:33px auto 0;
+    border: 1px solid #A4AEA9;
+}
+section .news .main .dibu .box a{
+    display: block;
+    width: 202px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+section .news .main .dibu .box a i{
+
+    color: #A4AEA9;
+}
+section .news .main .dibu .box:hover {
+    transition: 1s;
+    border-color: #343735;
+}
+section .news .main .dibu .box:hover a i{
+    color: #343735;
+    transition: 1s;
+}
+section .fankui{
+    width: 100%;
+    height: 451px;
+    background-image: url("../img/huluobo.jpg");
+    background-size: cover;
+    background-position: left;
+}
+section .fankui .main{
+    width: 1190px;
+    height: 451px;
+    margin: 0 auto;
+}
+section .fankui .main .top{
+    width: 1190px;
+    height:193px;
+    margin: 0 auto;
+    padding:90px 2px 30px;
+    position: relative;
+    box-sizing: border-box;
+}
+section .fankui .main .top .info{
+    width: 1186px;
+    height:72px;
+    margin:auto 2px;
+}
+section .fankui .main .top .info .title{
+    width: 120px;
+    height: 32px;
+    margin: 0 auto;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 32px;
+}
+section .fankui .main .top .info .subtitle{
+    width:120px;
+    height: 34px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 34px;
+}
+section .fankui .main .top .info .line{
+    width: 40px;
+    height: 3px;
+    background-color: #60c14d;
+    margin: 3px auto 0;
+}
+section .fankui .main .bottom{
+    width: 1190px;
+    height: 211px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+section .fankui .main .bottom .left{
+    width:196px;
+    height: 114px;
+}
+section .fankui .main .bottom .left .pic{
+    width:196px;
+    height: 80px;
+}
+section .fankui .main .bottom .left .pic img{
+    width:80px;
+    height: 80px;
+    margin: 0 58px ;
+    border-radius: 50%;
+}
+section .fankui .main .bottom .left .name{
+    width:196px;
+    height: 17px;
+    font-size:15px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 17px;
+    font-family: arial;
+}
+section .fankui .main .bottom .left .des{
+    width:196px;
+    height: 17px;
+    font-family: 微软雅黑;
+    color: #ffffff;
+    text-align: center;
+    line-height: 17px;
+}
+section .fankui .main .bottom .right{
+    width:888px;
+    height: 120px;
+    padding: 25px 0 25px 16px ;
+}
+section .fankui .main .bottom .right p {
+    width: 873px;
+    height: 70px;
+    font-size: 13px;
+    color: #D3D3D3;
+    line-height: 30px;
+}
+section .fankui .main .bottom .bannerDot{
+    width: 54px;
+    height:12px;
+    /* 列表背景透明度  0-255 最后表示透明度0-1.0*/
+
+    position:absolute;
+    bottom: 24px;
+    right:568px;
+    border-radius:2px;
+    z-index:999;
+}
+section .fankui .main .bottom .bannerDot .dot{
+    width: 6px;
+    height: 6px;
+    background: #949494;
+    float: left;
+    border: 2px solid #b9b9b9;
+    border-radius:50%;
+    margin-right: 12px;
+}
+
+section .fankui .main .bottom .bannerDot .dot:nth-child(3){
+    margin-right: 0px;
+    /*background: #fff;*/
+}
+section .fankui .main .bottom .bannerDot .hot{
+    background-color: #ffffff;
+}
+section .heZuo{
+    width: 100%;
+    height: 600px;
+    /*background-color: #333333;*/
+}
+section .heZuo .main{
+    width: 1190px;
+    height: 293px;
+    margin: 0 auto;
+    /*background-color: pink;*/
+}
+section .heZuo .main .top{
+    width: 1190px;
+    height:193px;
+    margin: 0 auto;
+    padding:100px 2px 20px;
+    position: relative;
+    box-sizing: border-box;
+    /*background-color: rebeccapurple;*/
+}
+section .heZuo .main .top .info{
+    width: 1186px;
+    height:72px;
+    margin:auto 2px;
+}
+section .heZuo .main .top .info .title{
+    width: 120px;
+    height: 32px;
+    margin: 0 auto;
+    font-size: 24px;
+    color: #494949;
+    text-align: center;
+    line-height: 32px;
+}
+section .heZuo .main .top .info .subtitle{
+    width:120px;
+    height: 34px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #bcbcbc;
+    text-align: center;
+    line-height: 34px;
+}
+section .heZuo .main .top .info .line{
+    width: 40px;
+    height: 3px;
+    background-color: #60c14d;
+    margin: 3px auto 0;
+}
+section .heZuo .main .tuBiao{
+    width: 1050px;
+    height:40px;
+    margin: 40px auto 20px;
+    /*background-color: #4bb344;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section .heZuo .main .tuBiao .box{
+    width: 175px;
+    height: 40px;
+    /*background-color: #333333;*/
+
+
+}
+section .heZuo .main .tuBiao .box img{
+    display: block;
+    width:115px;
+    height: 100%;
+    /*background-color: rosybrown;*/
+    margin: auto;
+
+}
+section .heZuo .bottom{
+    width: 1010px;
+    height: 242px;
+    margin: 0 auto;
+    /*background-color:yellow;*/
+    display: flex;
+    justify-content: space-between;
+}
+section .heZuo .bottom .left{
+    width: 363px;
+    height: 242px;
+    margin: 0 auto;
+    /*background-color:red;*/
+}
+section .heZuo .bottom .left ul{
+    width: 363px;
+    height: 242px;
+    margin: 0 auto;
+}
+section .heZuo .bottom .left ul li{
+    width: 363px;
+    height: 13px;
+    margin: 10px auto;
+    color: rgb(105, 105, 105);
+    font-size: 13px;
+    text-align: left;
+    line-height: 13px;
+    font-family: 宋体;
+}
+section .heZuo .bottom .left ul li:nth-child(1){
+    height: 16px;
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 14px;
+    color:#000000;
+}
+section .heZuo .bottom .left ul li:nth-child(2){
+    height: 13px;
+    margin-bottom: 15px;
+}
+section .heZuo .bottom .mid{
+    width: 313px;
+    height: 242px;
+    margin: 0 auto;
+    /*background-color:green;*/
+}
+section .heZuo .bottom .mid input{
+    width: 313px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(245, 245, 245);
+    padding:0 10px ;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+section .heZuo .bottom .mid input:nth-child(2){
+    background-color: rgb(245, 245, 245);
+}
+section .heZuo .bottom .mid input:nth-child(3){
+    width: 636px;
+    height: 63px;
+    background-color: rgb(245, 245, 245);
+    padding-top: 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+section .heZuo .bottom .mid button{
+    width: 130px;
+    height:40px;
+    background-color: #4bb344;
+    border: 1px solid #4bb344;
+}
+section .heZuo .bottom .mid button a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+}
+section .heZuo .bottom .right{
+    width: 334px;
+    height: 242px;
+    margin-left: 10px;
+    /*background-color: rosybrown;*/
+}
+section .heZuo .bottom .right input{
+    width: 313px;
+    height: 40px;
+    background-color: rgb(245, 245, 245);
+    padding:0 10px ;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+section .heZuo .bottom .right input:nth-child(2){
+    background-color: rgb(245, 245, 245);
+}

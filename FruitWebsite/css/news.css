@@ -1,0 +1,365 @@
+header{
+    width: 100%;
+    height:auto;
+}
+header .bigBox{
+    width: 1190px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+header .bigBox .brand{
+    width: 219px;
+    height: 80px;
+    position: relative;
+}
+header .bigBox .nav{
+    width: 971px;
+    height: 80px;
+    float: right;
+}
+header .bigBox .nav ul{
+    width: 971px;
+    height: 48px;
+    margin: 16px  0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+}
+header .bigBox .nav ul li{
+    width: auto;
+    height: 48px;
+    display: inline-block;
+    margin: auto 62px auto 0;
+
+}
+header .bigBox .nav ul li:nth-child(7){
+    margin-right: 0;
+}
+header .bigBox .nav ul li a{
+    display: block;
+    width:100%;
+    height: 48px;
+    /*text-decoration: none!important;*/
+    line-height: 48px;
+}
+header .bigBox .nav ul li a span{
+    width: auto;
+    font-size: 14px;
+    color: #333333;
+    position: relative;
+}
+header .bigBox .nav ul li a span i{
+    width: 100%;
+    height: 1px;
+    position:absolute ;
+    top: 40px;
+}
+header .bigBox .nav ul li:nth-child(1) a span i{
+    display: block;
+    background-color: #757575;
+}
+header .bigBox .nav ul li:nth-child(1) a span{
+    color: #757575;
+}
+header .bigBox .nav ul li a:hover span{
+    color: #757575;
+}
+header .bigBox .nav ul li a:hover span i{
+    width: 100%;
+    opacity: 1;
+    left: 0;
+    background-color: #757575;
+    transition: 1s;
+}
+section{
+    width: 100%;
+    height: auto;
+}
+section .biaoTi{
+    width: 1200px;
+    height: 39px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+section .biaoTi .title{
+    width: 28px;
+    height: 19px;
+    margin-left: 20px;
+}
+section .biaoTi .title a{
+    width: 100%;
+    height: 100%;
+    /*margin-right: 2px;*/
+    color: #56aa34;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 19px;
+    text-align: center;
+}
+section .biaoTi span{
+    display: block;
+    width: 22px;
+    height: 19px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #999999;
+    /*margin-left: 2px;*/
+    text-align: center;
+
+}
+section .biaoTi .word{
+    width: 56px;
+    height: 19px;
+
+}
+section .biaoTi .word span{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #999999;
+    /*margin-right: 2px;*/
+    text-align: center;
+    line-height: 19px;
+}
+section .bottom{
+    width: 1200px;
+    height:555px;
+    /*background-color:  #f4f4f4;*/
+    margin: 10px auto;
+    position: relative;
+}
+section .bottom .left{
+    width:266px;
+    height:64px;
+    background-color: #60c14d;
+    margin-left: 0;
+    margin-top: 0;
+    position: relative;
+}
+section .bottom .left .aboutUs{
+    width: 72px;
+    height: 24px;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+}
+section .bottom .left .ABOUT{
+    width: 61px;
+    height: 16px;
+    font-family: arial;
+    position: absolute;
+    top: 23px;
+    left: 112px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+    display: inline-block;
+    padding: 0 0 0 5px;
+    float: left;
+}
+section .bottom .left .line{
+    width: 226px;
+    height: 1px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 41px;
+    left: 40px;
+}
+section .bottom .lists{
+    width:266px;
+    height:157px;
+    /*background-color: palegoldenrod;*/
+    margin-left: 0;
+    margin-top:0 ;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border: 1px solid #bcbcbc;
+    border-top: 0;
+    /*position: relative;*/
+    /*margin-bottom: 50px;*/
+}
+section .bottom .lists ul{
+    width: 226px;
+    height: 127px;
+    /*background-color: #333333;*/
+}
+section .bottom .lists ul li{
+    width: 226px;
+    height: 25px;
+    margin-top: 6px;
+    /*background-color: yellow;*/
+    position: relative;
+}
+section .bottom .lists ul li a{
+    width: 71px;
+    height: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
+section .bottom .lists ul li a span{
+    width: 70px;
+    height: 19px;
+    /*background-color: papayawhip;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    /*line-height: 19px;*/
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 微软雅黑;
+}
+section .bottom .lists ul li:nth-child(1)  a span{
+    width: 56px;
+}
+section .bottom .lists ul li:hover a span{
+    color: #4bb344;
+}
+section .bottom .rightBox{
+    width: 919px;
+    height: 832px;
+    border: 1px solid #bcbcbc;
+    position: absolute;
+    top:0;
+    right: 0;
+    margin-bottom: 50px;
+}
+section .bottom .rightBox ul{
+    width: 879px;
+    height: 775px;
+    margin: 19px auto 5px ;
+    /*background-color: papayawhip;*/
+}
+/*section .bottom .rightBox .foot{*/
+    /*width: 879px;*/
+    /*height: 18px;*/
+    /*margin: 0 auto 15px;*/
+    /*background-color:deeppink;*/
+/*}*/
+section .bottom .rightBox ul li{
+    width: 877px;
+    height: 135px;
+    /*background-color: yellow;*/
+    margin-left: 1px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted rgb(229, 229, 229);
+    box-sizing: border-box;
+}
+section .bottom .rightBox ul li .list{
+    width:877px;
+    height: 114px;
+    position: relative;
+}
+section .bottom .rightBox ul li .list .pic{
+    width:170px;
+    height: 114px;
+    /*background-color: #333333;*/
+}
+section .bottom .rightBox ul li .list .pic a{
+    width:150px;
+    height: 92px;
+    /*background-color: red;*/
+    display: block;
+    background-image: url("../img/news1.jpg");
+}
+section .bottom .rightBox ul li:nth-child(2) .list .pic a{
+    background-image: url("../img/news2.jpg");
+}
+section .bottom .rightBox ul li:nth-child(3) .list .pic a{
+    background-image: url("../img/news3.jpg");
+}
+section .bottom .rightBox ul li:nth-child(4) .list .pic a{
+    background-image: url("../img/news4.jpg");
+}
+section .bottom .rightBox ul li:nth-child(5) .list .pic a{
+    background-image: url("../img/news5.jpg");
+}
+section .bottom .rightBox ul li .list .right{
+    width:707px;
+    height: 114px;
+    position: absolute;
+    top:0;
+    right: 0;
+    /*background-color:pink;*/
+}
+section .bottom .rightBox ul li .list .right .word{
+    width:702px ;
+    height: 17px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    /*background-color: #4bb344;*/
+}
+section .bottom .rightBox ul li .list .right .word a{
+    width:339px ;
+    height: 21px;
+    /*background-color: #4bb344;*/
+    color: #777777;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    line-height: 16px;
+}
+section .bottom .rightBox ul li:hover .list .right .word a{
+    color: #4bb344;
+}
+section .bottom .rightBox ul li .list .right .date{
+    width:702px ;
+    height: 22px;
+    /*background-color: #4bb344;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+section .bottom .rightBox ul li .list .right .date span{
+    width:128px;
+    height: 12px;
+    display: block;
+    /*background-color:red ;*/
+    color: #bababa;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: 微软雅黑;
+    margin:auto 0 ;
+}
+section .bottom .rightBox ul li .list .right .des{
+    width:702px ;
+    height: 60px;
+    /*background-color: #4bb344;*/
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+section .bottom .rightBox ul li .list .right .des p{
+    width:702px;
+    height: 40px;
+    display: block;
+    color: #aaaaaa;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    line-height: 20px;
+
+}
+
+
